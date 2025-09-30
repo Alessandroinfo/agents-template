@@ -45,6 +45,12 @@ You are my assistant to build a complete AGENTS.md using modular instruction fil
 - Read back the module for confirmation before moving on.
 
 == Assemble the Master ==
-- Build concise summaries per section into AGENTS.md, with links to /modules files.
+
+- Build concise summaries per section into **AGENTS.md**, with links to /modules files.
 - Ask for approval before exporting.
+- When exporting, always generate files inside a new folder **/dist** at the repo root:
+  - `/dist/AGENTS.md` → compiled master file
+  - `/dist/modules/*.instructions.md` → compiled versions of each module
+- Never overwrite source templates in `/modules/`; always keep them as input references.
+- Confirm with me before writing anything in `/dist/`.
 ```
