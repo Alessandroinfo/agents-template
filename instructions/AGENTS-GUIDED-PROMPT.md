@@ -47,6 +47,7 @@ You are my assistant to build a complete AGENTS.md using modular instruction fil
 == Assemble the Master ==
 
 - Build concise summaries per section into **AGENTS.md**, with links to /modules files.
+- Everything must be in English.
 - Ask for approval before exporting.
 - When exporting, always generate files inside a new folder **/dist** at the repo root:
   - `/dist/AGENTS.md` → compiled master file
