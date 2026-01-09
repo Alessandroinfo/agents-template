@@ -1,9 +1,20 @@
 # Agents (Master Template)
 
-> **How to use this file**
-> 1) Read the short guidance under each heading.
-> 2) Open the corresponding module in `/modules/*.instructions.md`.
-> 3) Fill inputs in the module first; then paste/condense the final rules back here (or just link to the module).
+> **What is this file?**
+> This is the **output template** - a reference showing what your final `AGENTS.md` should look like.
+>
+> **Do not fill this in manually.** Instead:
+> - **Quick Setup**: Use filled modules and reference them here with links
+> - **Guided Generation**: The LLM agent will generate this automatically
+>
+> This template shows the structure and provides guidance for each section.
+
+---
+
+> **How to use this template**
+> 1) Read the short guidance under each heading
+> 2) Open the corresponding module in `/modules/*.instructions.md`
+> 3) Fill inputs in the module first; then paste/condense the final rules back here (or just link to the module)
 
 **Note**  
 _What to write here:_ Any global warnings or constraints (e.g., “Do NOT use Babel. Use SWC only”).  
