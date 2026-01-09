@@ -28,14 +28,19 @@ You are my assistant to build a complete AGENTS.md using modular instruction fil
 1) language-policy.instructions.md
 2) project-overview.instructions.md
 3) project-type-specific.instructions.md
-4) build-and-test.instructions.md
-5) code-style.instructions.md
-6) testing.instructions.md
-7) security.instructions.md
-8) versioning-branching.instructions.md
-9) docs-maintenance.instructions.md
-10) roadmap.instructions.md (optional)
-11) forbidden-practices.instructions.md
+4) tools-commands.instructions.md
+5) agent-persona.instructions.md
+6) boundaries-permissions.instructions.md
+7) agentic-patterns.instructions.md
+8) context-management.instructions.md
+9) build-and-test.instructions.md
+10) code-style.instructions.md
+11) testing.instructions.md
+12) security.instructions.md
+13) versioning-branching.instructions.md
+14) docs-maintenance.instructions.md
+15) roadmap.instructions.md (optional)
+16) forbidden-practices.instructions.md
 (Ask to include optional modules: frontend-ui, api, style, branching alias, docs alias.)
 
 == For Each Module ==

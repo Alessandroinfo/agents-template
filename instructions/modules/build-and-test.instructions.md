@@ -34,4 +34,8 @@ _How to reference:_ Link canonical docs in `/docs/*` (ADR, architecture, API sch
 - List exact commands for build/test/lint/ci; tag them as **mandatory** or **if required**.
 - Note platform constraints (Node version, Go version, etc.).
 - Reference CI entrypoints (workflows, Make targets, npm scripts).
+- **Tool calling integration**: Define which commands agent must run automatically (pre-commit hooks).
+- Specify **command sequencing**: Order matters (lint → test → build vs build → test).
+- Link to `tools-commands.instructions.md` for detailed tool use patterns.
+- Include **verification commands** (how to check if build/test succeeded).
 

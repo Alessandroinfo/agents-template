@@ -34,4 +34,8 @@ _How to reference:_ Link canonical docs in `/docs/*` (ADR, architecture, API sch
 - Conventional Commits (mandatory/optional) and example messages.
 - Linting/formatting tools (ESLint, Prettier, Black, gofmt) and configs.
 - Documentation expectations (docstrings, README updates) and **review** rules.
+- **Code examples**: Include concrete "good vs bad" code snippets showing preferred style.
+  - Example: Show preferred naming, function structure, error handling patterns.
+  - Research shows code examples are more effective than textual descriptions.
+  - Include 3-5 realistic examples covering common scenarios (naming, structure, patterns).
 

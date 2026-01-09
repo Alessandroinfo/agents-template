@@ -25,9 +25,49 @@ _How to fill:_ Describe purpose, scope, and priorities.
 ---
 
 ## Project-Type Specific Instructions
-_How to fill:_ Summarize directory layout, naming, architecture, module boundaries, UI i18n tool.  
-- Include 4–6 bullet points.  
+_How to fill:_ Summarize directory layout, naming, architecture, module boundaries, UI i18n tool.
+- Include 4–6 bullet points.
 - Full details: `modules/project-type-specific.instructions.md`.
+
+---
+
+## Tools & Commands
+_How to fill:_ List all executable commands (build, test, lint, format), tool calling patterns, mandatory pre-commit hooks.
+- Include exact CLI commands with examples.
+- Specify command sequencing (e.g., lint → test → build).
+- Full details: `modules/tools-commands.instructions.md`.
+
+---
+
+## Agent Persona
+_How to fill:_ Define agent role, expertise areas, output style preferences, decision-making authority.
+- Include role title and primary/secondary skills.
+- Specify what agent can decide autonomously vs. what requires approval.
+- Full details: `modules/agent-persona.instructions.md`.
+
+---
+
+## Boundaries & Permissions
+_How to fill:_ Define read/write permissions, protected resources, Always/Ask/Never action rules.
+- List readable and writable directories (glob patterns).
+- Specify protected files and forbidden actions.
+- Full details: `modules/boundaries-permissions.instructions.md`.
+
+---
+
+## Agentic Patterns
+_How to fill:_ Define Reflection, Planning, Tool Use, and Memory patterns for multi-step autonomous workflows.
+- Include reflection checkpoints and planning approaches.
+- Specify tool selection strategies and iteration limits.
+- Full details: `modules/agentic-patterns.instructions.md`.
+
+---
+
+## Context Management
+_How to fill:_ Define token budgets, high-signal prioritization, context compaction strategies, RAG patterns.
+- Include token limits and file size thresholds.
+- Specify context refresh triggers and caching policies.
+- Full details: `modules/context-management.instructions.md`.
 
 ---
 

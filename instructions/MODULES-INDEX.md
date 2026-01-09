@@ -12,14 +12,19 @@
 | Language Policy | modules/language-policy.instructions.md | **/* | Set language & casing for comments/identifiers; UI/i18n policy; locales & fallback |
 | Project Overview | modules/project-overview.instructions.md | **/* | Purpose, scope, priorities; stability vs speed |
 | Project-Type Specific | modules/project-type-specific.instructions.md | src/**/* | Directory layout, patterns, architecture, state, i18n |
+| Tools & Commands | modules/tools-commands.instructions.md | **/* | Executable commands (build, test, lint); tool calling patterns; pre-commit hooks |
+| Agent Persona | modules/agent-persona.instructions.md | **/* | Agent role, expertise, output style, decision authority (AGENTS.md standard) |
+| Boundaries & Permissions | modules/boundaries-permissions.instructions.md | **/* | Read/write permissions; Always/Ask/Never rules; protected resources |
+| Agentic Patterns | modules/agentic-patterns.instructions.md | **/* | Reflection, Planning, Tool Use, Memory patterns for autonomous workflows |
+| Context Management | modules/context-management.instructions.md | **/* | Token budgets, high-signal prioritization, context compaction, RAG patterns |
 | Build & Test | modules/build-and-test.instructions.md | **/* | Build/test/CI commands; mandatory vs optional |
-| Code Style | modules/code-style.instructions.md | **/* | Conventional Commits; lint/format; docs; reviews |
+| Code Style | modules/code-style.instructions.md | **/* | Conventional Commits; lint/format; docs; reviews; code examples |
 | Testing | modules/testing.instructions.md | **/*.{spec,test}.{ts,tsx,js,jsx} | Test levels, coverage, tools, CI artifacts |
 | Security | modules/security.instructions.md | **/* | Secrets, dep policy, scans, SBOM |
 | Versioning & Branching | modules/versioning-branching.instructions.md | **/* | Branch model + naming; bugfix branches |
 | Docs & Maintenance | modules/docs-maintenance.instructions.md | docs/**/* | Docs layout; auto-update; CI gating |
 | Roadmap | modules/roadmap.instructions.md | ROADMAP.md | Feature list & status markers |
-| Forbidden Practices | modules/forbidden-practices.instructions.md | **/* | “Never do this” rules |
+| Forbidden Practices | modules/forbidden-practices.instructions.md | **/* | "Never do this" rules |
 
 ## Optional / Alias Modules
 | Module | Path | Scope / applyTo | Notes / How to Fill |

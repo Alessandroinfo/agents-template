@@ -2,6 +2,8 @@
 
 This repository includes a **modular system** for defining rules and instructions for coding agents (Copilot, Claude, Gemini, etc.).
 
+Includes best practices for LLM coding agents: agentic workflows (Reflection, Planning, Tool Use, Memory), context engineering, AGENTS.md standard, boundaries & permissions.
+
 ## Structure
 - **AGENTS-TEMPLATE.md** → Main template. Summarizes all rules and links to modules.  
 - **AGENTS-GUIDED-PROMPT.md** → Paste into your coding agent to be guided step by step in completing the template.  
